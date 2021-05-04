@@ -1,0 +1,114 @@
+body{
+    padding: 50px;
+}
+
+/* header area */
+
+.header{
+    
+}
+.header h1{
+    color: #bad1f5;
+}
+#header-address{
+    text-align: right;
+}
+
+/* sidebar */
+
+.sidebar{
+    float: right;
+    border: solid 1px #bad1f5;
+    background-color: #bad1f5;
+    padding: 20px 20px 500px 20px;
+    border-radius: 10px;
+}
+
+/* main content */
+.main-content{
+    padding: 20px;
+    width: 65%;
+    text-align: justify;
+}
+
+.span{
+    color:#bad1f5;
+}
+
+.workplace{
+    text-align: right;
+}
+
+@media only screen and (max-width:700px) {
+
+    body{
+        background-color: #eadff0;
+    }
+
+    .header{
+        
+        padding: 10px;
+        text-align: right;
+    }
+    
+    .sidebar{
+        float: none;
+        border: solid 1px #bad1f5;
+        background-color: #bad1f5;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .main-content{ 
+        margin-top: 0;
+        width: auto;
+    }
+
+    /* summary area */
+    #summary{
+        border: 2px solid #bad1f5;
+        padding: 15px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        
+    }
+
+    /* career narrative area */
+    #career-segment{
+        border: solid 1px #bad1f5;
+        background-color: #bad1f5;
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .span{
+        color: white;
+    }
+    
+    /* writing portfolio */
+    #writing-segment{
+        border: 2px solid #bad1f5;
+        padding: 15px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    /* volumteering segment */
+    #volunteering-segment{
+        border: solid 1px #bad1f5;
+        background-color: #bad1f5;
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    /* certification segment */
+    #certification-segment{
+        border: 2px solid #bad1f5;
+        padding: 15px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+}
